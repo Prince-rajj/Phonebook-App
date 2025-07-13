@@ -1,43 +1,52 @@
-<!-- Stylish Header -->
+<!-- Header with wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=200&section=header&text=C%20Phonebook%20App&fontSize=40&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=200&section=header&text=C%20Phonebook%20App&fontSize=35&fontColor=ffffff" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Console-lightgrey?style=for-the-badge" />
+  
 </p>
+
+## 📘 Project Overview
+
+A **C Console Phonebook Application** to manage your personal contacts using a simple text-based interface. This project allows adding, viewing, searching, editing, deleting, and sorting contacts stored in memory.
 
 ---
 
-## 📱 About the Project
+## ✨ Features
 
-**C Phonebook App** is a simple console-based project written in C that allows you to store, manage, and search contacts efficiently. Each contact stores the following information:
+- ➕ Add a new contact
+- 📇 View all contacts
+- 🔍 Search contact by name
+- 📝 Modify existing contact
+- ❌ Delete a contact
+- 🔤 Sort contacts alphabetically
+- ❎ Exit the application
+
+---
+
+## 🛠️ Technologies Used
+
+- Language: **C**
+- Compiler: GCC (Recommended)
+
+---
+
+## 📁 Structure
+
+Each contact stores the following details:
 
 - Name
-- Phone
+- Phone Number
 - Email
 - Birthday
 - Group (e.g., Family, Friends, Work)
 
 ---
 
-## 🎬 Demo
+## 🚀 How to Run
 
-<p align="center">
-  <img src="![Image](https://github.com/user-attachments/assets/a869cfb3-ebb2-4311-9052-05373680ad10)"/>
-</p>
-
----
-
-## 🛠 Features
-
-- ✅ Add new contacts
-- 📖 View all contacts
-- 🔍 Search contacts by name
-- ✏️ Modify existing contacts
-- ❌ Delete contacts
-- 🔃 Sort contacts alphabetically
-
----
+1. **Clone the repository** or copy the code into a `.c` file:
+   ```bash
+   git clone https://github.com/your-username/c-phonebook.git
+   cd c-phonebook
